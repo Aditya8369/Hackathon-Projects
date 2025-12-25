@@ -1,27 +1,3 @@
-# Structure of the repository
-
-Hackmas: HackMars 2.0/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   ├── colleges.json
-│   ├── careers.json
-│   └── holidays.json
-│
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│   ├── colleges.html
-│   ├── careers.html
-│   └── planner.html
-│
-└── static/
-    └── style.css
-
-
 # 🎓 College & Career Guide
 
 A web application to help students:
@@ -39,6 +15,9 @@ A web application to help students:
 pip install -r requirements.txt
 python app.py
 ```
+Open browser at:
+http://127.0.0.1:5000/
+
 
 ## 🏆 Why This Project is Hackathon-Strong
 - ✔ Real student problem
@@ -46,4 +25,5 @@ python app.py
 - ✔ Holiday integration (unique touch)
 - ✔ Clean architecture
 - ✔ Easy demo
+
 
