@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>🏫 Colleges</h2>
+<ul>
+{% for c in colleges %}
+  <li>
+    <strong>{{ c.name }}</strong> – {{ c.stream }} <br>
+    Exam: {{ c.exam }} | Fees: {{ c.fees }} | Location: {{ c.location }}
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}

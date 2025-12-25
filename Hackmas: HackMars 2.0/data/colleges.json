@@ -1,0 +1,16 @@
+[
+  {
+    "name": "IIT Bombay",
+    "stream": "Engineering",
+    "exam": "JEE Advanced",
+    "fees": "₹2,00,000/year",
+    "location": "Mumbai"
+  },
+  {
+    "name": "AIIMS Delhi",
+    "stream": "Medical",
+    "exam": "NEET",
+    "fees": "₹1,500/year",
+    "location": "Delhi"
+  }
+]

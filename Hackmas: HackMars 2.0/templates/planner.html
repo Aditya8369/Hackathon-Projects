@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>📅 Admission Planner (with Holidays)</h2>
+<ul>
+{% for h in holidays %}
+  <li>
+    <strong>{{ h.name }}</strong> ({{ h.month }})<br>
+    {{ h.note }}
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}
