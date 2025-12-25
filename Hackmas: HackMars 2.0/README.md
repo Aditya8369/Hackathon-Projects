@@ -15,8 +15,8 @@ A web application to help students:
 pip install -r requirements.txt
 python app.py
 ```
-Open browser at:
-http://127.0.0.1:5000/
+Open browser at: 
+ http://127.0.0.1:5000/
 
 
 ## 🏆 Why This Project is Hackathon-Strong
@@ -25,5 +25,6 @@ http://127.0.0.1:5000/
 - ✔ Holiday integration (unique touch)
 - ✔ Clean architecture
 - ✔ Easy demo
+
 
 
