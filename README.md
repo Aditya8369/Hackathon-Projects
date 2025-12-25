@@ -1,6 +1,6 @@
 ## 👨‍💻 About Me
 
-Hi, I’m **Aditya M** 👋  
+Hi, I’m **Aditya Mahajan** 👋  
 A passionate developer who enjoys building impactful solutions during hackathons, learning new technologies, and collaborating with diverse teams.
 
 - 💡 Interests: Web Development, Problem Solving, Open Source
