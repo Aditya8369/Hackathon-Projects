@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dir: [client, server]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install
+        run: npm install
+        working-directory: ${{ matrix.dir }}
+      - name: Build or Start
+        run: |
+          if [ "${{ matrix.dir }}" = "client" ]; then
+            npm run build
+          else
+            node -e "require('./server.js'); process.exit(0)"
+          fi
+        working-directory: ${{ matrix.dir }}
