@@ -38,7 +38,7 @@ A web application to help students:
 ```bash
 pip install -r requirements.txt
 python app.py
-
+```
 
 ## 🏆 Why This Project is Hackathon-Strong
 - ✔ Real student problem
@@ -46,3 +46,4 @@ python app.py
 - ✔ Holiday integration (unique touch)
 - ✔ Clean architecture
 - ✔ Easy demo
+
