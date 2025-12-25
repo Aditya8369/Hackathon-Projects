@@ -26,10 +26,4 @@ Edit `server/data/challenges.json` or `client/src/lib/challenges.js`. Define:
 ## License
 MIT
 
-│  ├─ data/
-│  │  ├─ leaderboard.json
-│  │  ├─ challenges.json
-├─ .github/
-│  └─ workflows/
 
-│     └─ ci.yml
