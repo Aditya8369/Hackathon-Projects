@@ -1,0 +1,50 @@
+:root {
+  --bg: #0b0d12;
+  --card: #121620;
+  --accent: #4f46e5;
+  --text: #e6e8ed;
+  --muted: #a5a9b8;
+  --success: #22c55e;
+  --fail: #ef4444;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
+}
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.header {
+  display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;
+}
+.card {
+  background: var(--card); border: 1px solid #1b2030; border-radius: 12px; padding: 16px;
+}
+.button {
+  background: var(--accent); color: white; border: none; padding: 10px 14px; border-radius: 8px; cursor: pointer;
+}
+.button.secondary { background: #2b3244; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.editor {
+  height: 320px;
+  width: 100%;
+  background: #1e293b; /* dark slate */
+  color: #f8fafc;       /* light text */
+  font-family: monospace;
+  font-size: 14px;
+  border: 1px solid #334155;
+  padding: 12px;
+  border-radius: 8px;
+}
+.editor-preview {
+  background: #0f172a;
+  color: #38bdf8;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: monospace;
+}
+.badge { display: inline-block; padding: 6px 10px; border-radius: 999px; background: #22283a; color: var(--muted); margin-right: 8px; }
+.result { padding: 8px 10px; border-radius: 8px; }
+.result.pass { background: rgba(34,197,94,0.1); color: var(--success); }
+.result.fail { background: rgba(239,68,68,0.12); color: var(--fail); }
