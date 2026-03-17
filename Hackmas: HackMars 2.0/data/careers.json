@@ -1,0 +1,12 @@
+[
+  {
+    "career": "Software Engineer",
+    "skills": ["DSA", "Python", "Web Development"],
+    "salary": "6-20 LPA"
+  },
+  {
+    "career": "Doctor",
+    "skills": ["Biology", "Clinical Practice"],
+    "salary": "8-25 LPA"
+  }
+]

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>💼 Careers</h2>
+<ul>
+{% for c in careers %}
+  <li>
+    <strong>{{ c.career }}</strong><br>
+    Skills: {{ c.skills | join(", ") }}<br>
+    Salary: {{ c.salary }}
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}
