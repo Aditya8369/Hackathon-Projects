@@ -7,6 +7,8 @@
 ![Status](https://img.shields.io/badge/Project-Hackathon%20Ready-00A86B)
 ![License](https://img.shields.io/badge/License-MIT-informational)
 
+
+
 ## 🚀 Why This Project
 
 Pollution Control Hub helps users:
